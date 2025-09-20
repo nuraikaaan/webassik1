@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel = "stylesheet" href = "style3.css">
+  <meta charset="UTF-8">
+  <title>MOODLE</title>
+  
+</head>
+<body>
+    <div class ="bio-header"> 
+        <h1 id="page-title">Student Grades & Feedback</h1>
+    </div>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Subject</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Alice</td>
+      <td>Math</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Science</td>
+      <td>B+</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>English</td>
+      <td>A+</td>
+    </tr>
+    <tr> 
+        <td>Bob</td>
+        <td>Math</td>
+        <td> A-</td>
+    </tr>
+    <tr class="highlight-row">
+      <td >Charlie</td>
+      <td> History</td>
+      <td>B</td>
+    </tr>
+    <tr>
+        <td> Charlie</td>
+        <td> Math</td>
+        <td> F+ </td>
+    </tr>
+  </table>
+
+  <div class="form">
+    <h2>Feedback Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <label for="role">Role:</label>
+      <select id="role" name="role">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Other</option>
+      </select>
+
+      <label>Did you like this page?</label>
+      <input type="radio" id="yes" name="like" value="yes"> Yes
+      <input type="radio" id="no" name="like" value="no"> No
+
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments"></textarea>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+
+  <div class="button" >
+        <div class="link"> 
+        <a href="index1.html" class="button">Back to Home</a>
+    </div>
+    </div>
+
+    </div>
+
+</body>
+</html>
